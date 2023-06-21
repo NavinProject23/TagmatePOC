@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EFB354772A4326B0001C06C4 /* TagmatePOC.docc in Sources */ = {isa = PBXBuildFile; fileRef = EFB354762A4326B0001C06C4 /* TagmatePOC.docc */; };
+		EFB3547D2A4326B0001C06C4 /* TagmatePOC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFB354722A4326B0001C06C4 /* TagmatePOC.framework */; };
+		EFB354822A4326B0001C06C4 /* TagmatePOCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB354812A4326B0001C06C4 /* TagmatePOCTests.swift */; };
+		EFB354832A4326B0001C06C4 /* TagmatePOC.h in Headers */ = {isa = PBXBuildFile; fileRef = EFB354752A4326B0001C06C4 /* TagmatePOC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFB354902A432752001C06C4 /* TagmateSDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB3548F2A432752001C06C4 /* TagmateSDK.swift */; };
+		EFB354932A43284C001C06C4 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = EFB354922A43284C001C06C4 /* FirebaseAnalytics */; };
+		EFB354952A43284C001C06C4 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = EFB354942A43284C001C06C4 /* FirebaseAuth */; };
+		EFB354972A43284C001C06C4 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = EFB354962A43284C001C06C4 /* FirebaseCrashlytics */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFB3547E2A4326B0001C06C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFB354692A4326B0001C06C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFB354712A4326B0001C06C4;
+			remoteInfo = TagmatePOC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EFB354722A4326B0001C06C4 /* TagmatePOC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TagmatePOC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFB354752A4326B0001C06C4 /* TagmatePOC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TagmatePOC.h; sourceTree = "<group>"; };
+		EFB354762A4326B0001C06C4 /* TagmatePOC.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = TagmatePOC.docc; sourceTree = "<group>"; };
+		EFB3547C2A4326B0001C06C4 /* TagmatePOCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TagmatePOCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFB354812A4326B0001C06C4 /* TagmatePOCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagmatePOCTests.swift; sourceTree = "<group>"; };
+		EFB3548D2A43271F001C06C4 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
+		EFB3548F2A432752001C06C4 /* TagmateSDK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagmateSDK.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFB3546F2A4326B0001C06C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFB354972A43284C001C06C4 /* FirebaseCrashlytics in Frameworks */,
+				EFB354932A43284C001C06C4 /* FirebaseAnalytics in Frameworks */,
+				EFB354952A43284C001C06C4 /* FirebaseAuth in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFB354792A4326B0001C06C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFB3547D2A4326B0001C06C4 /* TagmatePOC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFB354682A4326B0001C06C4 = {
+			isa = PBXGroup;
+			children = (
+				EFB354742A4326B0001C06C4 /* TagmatePOC */,
+				EFB354802A4326B0001C06C4 /* TagmatePOCTests */,
+				EFB354732A4326B0001C06C4 /* Products */,
+				EFB3548C2A43271F001C06C4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EFB354732A4326B0001C06C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFB354722A4326B0001C06C4 /* TagmatePOC.framework */,
+				EFB3547C2A4326B0001C06C4 /* TagmatePOCTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFB354742A4326B0001C06C4 /* TagmatePOC */ = {
+			isa = PBXGroup;
+			children = (
+				EFB354752A4326B0001C06C4 /* TagmatePOC.h */,
+				EFB3548F2A432752001C06C4 /* TagmateSDK.swift */,
+				EFB354762A4326B0001C06C4 /* TagmatePOC.docc */,
+			);
+			path = TagmatePOC;
+			sourceTree = "<group>";
+		};
+		EFB354802A4326B0001C06C4 /* TagmatePOCTests */ = {
+			isa = PBXGroup;
+			children = (
+				EFB354812A4326B0001C06C4 /* TagmatePOCTests.swift */,
+			);
+			path = TagmatePOCTests;
+			sourceTree = "<group>";
+		};
+		EFB3548C2A43271F001C06C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EFB3548D2A43271F001C06C4 /* Accelerate.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		EFB3546D2A4326B0001C06C4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFB354832A4326B0001C06C4 /* TagmatePOC.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		EFB354712A4326B0001C06C4 /* TagmatePOC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFB354862A4326B0001C06C4 /* Build configuration list for PBXNativeTarget "TagmatePOC" */;
+			buildPhases = (
+				EFB3546D2A4326B0001C06C4 /* Headers */,
+				EFB3546E2A4326B0001C06C4 /* Sources */,
+				EFB3546F2A4326B0001C06C4 /* Frameworks */,
+				EFB354702A4326B0001C06C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TagmatePOC;
+			packageProductDependencies = (
+				EFB354922A43284C001C06C4 /* FirebaseAnalytics */,
+				EFB354942A43284C001C06C4 /* FirebaseAuth */,
+				EFB354962A43284C001C06C4 /* FirebaseCrashlytics */,
+			);
+			productName = TagmatePOC;
+			productReference = EFB354722A4326B0001C06C4 /* TagmatePOC.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EFB3547B2A4326B0001C06C4 /* TagmatePOCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFB354892A4326B0001C06C4 /* Build configuration list for PBXNativeTarget "TagmatePOCTests" */;
+			buildPhases = (
+				EFB354782A4326B0001C06C4 /* Sources */,
+				EFB354792A4326B0001C06C4 /* Frameworks */,
+				EFB3547A2A4326B0001C06C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFB3547F2A4326B0001C06C4 /* PBXTargetDependency */,
+			);
+			name = TagmatePOCTests;
+			productName = TagmatePOCTests;
+			productReference = EFB3547C2A4326B0001C06C4 /* TagmatePOCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFB354692A4326B0001C06C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					EFB354712A4326B0001C06C4 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					EFB3547B2A4326B0001C06C4 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = EFB3546C2A4326B0001C06C4 /* Build configuration list for PBXProject "TagmatePOC" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFB354682A4326B0001C06C4;
+			packageReferences = (
+				EFB354912A43284C001C06C4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = EFB354732A4326B0001C06C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFB354712A4326B0001C06C4 /* TagmatePOC */,
+				EFB3547B2A4326B0001C06C4 /* TagmatePOCTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFB354702A4326B0001C06C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFB3547A2A4326B0001C06C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFB3546E2A4326B0001C06C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFB354902A432752001C06C4 /* TagmateSDK.swift in Sources */,
+				EFB354772A4326B0001C06C4 /* TagmatePOC.docc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFB354782A4326B0001C06C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFB354822A4326B0001C06C4 /* TagmatePOCTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFB3547F2A4326B0001C06C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFB354712A4326B0001C06C4 /* TagmatePOC */;
+			targetProxy = EFB3547E2A4326B0001C06C4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EFB354842A4326B0001C06C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EFB354852A4326B0001C06C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EFB354872A4326B0001C06C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = NavinRai.TagmatePOC;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EFB354882A4326B0001C06C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = NavinRai.TagmatePOC;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EFB3548A2A4326B0001C06C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NavinRai.TagmatePOCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EFB3548B2A4326B0001C06C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NavinRai.TagmatePOCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFB3546C2A4326B0001C06C4 /* Build configuration list for PBXProject "TagmatePOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFB354842A4326B0001C06C4 /* Debug */,
+				EFB354852A4326B0001C06C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFB354862A4326B0001C06C4 /* Build configuration list for PBXNativeTarget "TagmatePOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFB354872A4326B0001C06C4 /* Debug */,
+				EFB354882A4326B0001C06C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFB354892A4326B0001C06C4 /* Build configuration list for PBXNativeTarget "TagmatePOCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFB3548A2A4326B0001C06C4 /* Debug */,
+				EFB3548B2A4326B0001C06C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EFB354912A43284C001C06C4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EFB354922A43284C001C06C4 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EFB354912A43284C001C06C4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		EFB354942A43284C001C06C4 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EFB354912A43284C001C06C4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		EFB354962A43284C001C06C4 /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EFB354912A43284C001C06C4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = EFB354692A4326B0001C06C4 /* Project object */;
+}
